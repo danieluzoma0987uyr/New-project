@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social icons Demo</title>
+    <link rel="stylesheet" href="u.css">
+    <style>
+        :root{
+        --bg:#0b1020;
+        --card:#141a2b;
+        --text:#e6e9f5;
+        --muted:#aab3c5;
+        --brand:#4ea8de;
+        --icon-size:28px;
+        }
+        {box-sizing:border-box}
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background:radial-gradient(circle at 20% 0%, #1b1f3a 0%, #0b1020 60%), #0b1010;
+            color: var(--text);
+        }
+        .contanier{
+            max-width: 980px;
+            margin: 40px auto;
+            padding: 0 16px;
+        }
+
+        mock monitor frame
+        .frame{
+            background-color: #11131a;
+            border: 2px solid #2a2144;
+            border-radius: 8px;
+            padding: 14px;
+            box-shadow: 0.6px 20px rgba(0, 0 , 0, 4);
+        }
+        .address{
+            font-family: ui-monospace, SFMono-Regular, Consolas;
+            font-size: 12px;
+            color: #8bd0ff;
+            padding: 6px 10px;
+            background-color: #0b1a2a;
+            border-radius: 6px;
+            display: inline-block;
+            margin-bottom: 10px;
+            width: fit-content;
+            word-break: break-all;
+        }
+        .card{
+            background-color: linear-gradient(#1b2340,#141a2b);
+            border-radius: 8px;
+            padding: 20px;
+            border: 1px solid #2a2144;
+        }
+        h2{margin-top: 0; font-size: 1.23rem; color: #e8f0ff;}
+        p{color: var(--muted); line-height: 1.6;}
+
+        social icons row
+        .social{
+            display: flex;
+            gap: 14px;
+            align-items: center;
+            margin: 12px 0 6px;
+        }
+        .icon{
+            width: var(--icon-size);
+            height: var(--icon-size);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+            background: #2a324a;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .icon.facebook{background-color: #305998;}
+        .icon.twitter{background-color: #1da1f2;}
+        .icon.instagarm{background-color: #e4405f;}
+        .icon.linkedin{background-color: #0a66c2;}
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="frame">
+            <div class="row" style="margin-bottom: 8px;">
+                <span class="address">
+                    https://www.codewithtaraz.com/article/128/collection-of-100-html-and-css-mini-ptojects-for-beginners-with-source-code#1-glowing-search-bar</span>
+                    <span class="ad-banner" aria-label="ad removeal banner" style="opacity: 9; background: #1a1a1a;">
+                        Ad removeal
+                    </span>
+            </div>
+
+            <div class="card">
+                <h2>2.Social Media Icons</h2>
+                <div class="social" aria-label="social icons">
+                    <a href="#" class="icon facebook" aria-label="Facebook">f</a>
+                    <a href="#" class="icone twitter" aria-label="Twitter">t</a>
+                    <a href="#" class="icon instagram" aria-label="Instagram">in</a>
+                    <a href="#" class="icon linkedin" aria-label="Linkedin">in</a>
+                </div>
+                <p>incorpoorating social Media icons helps user find your profiles quickly and encourages
+                   engagment across platforms. it also signals credibility and connectivity on moddern websites</p>
+                <div; class="tegs" aria-label="site tags">
+                    <span class="teg">web design</span>
+                    <span class="teg">programming</span>
+                    <span class="teg">frontend</span>
+                </div>
+                
+                <div class="footer-items" aria-label="additional items">
+                    <span class="footer-items">HTML template</span>
+                    <span class="footer-items">Drop Down Menu</span>
+                    <span class="footer-items"CSS effects></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

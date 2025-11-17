@@ -1,0 +1,17 @@
+body{
+    background-color: #0a062d;
+    margin: 0;
+    padding: 0;
+}
+.contanier{
+    align-items: center;
+    color: wheat;
+    text-align: center;
+}
+
+.doc{
+    border-radius: 40px;
+    border: 50px;
+    padding-top: 20px;
+    margin: 70px;
+}

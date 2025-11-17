@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background-color: linear-gradient(180deg,#f9f9f9,#fff);
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    
+}
+
+.logo{
+    font-size: 1.2rem;
+    color: #4b47d1;
+    text-align: left;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 300;
+}
+
+.btn-pro{
+    background-color: #4b47d1;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.btn-login {
+    border: 1px solid #ccc;
+    padding: 8px 15px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.hero{
+    text-align: center;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.breadcrumb {
+    color: #888;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    align-items: center;
+}
+
+.hero h1{
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.btn-start{
+    background-color: #e84cb8;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-start:hover {
+    background-color: #d23da3;
+}

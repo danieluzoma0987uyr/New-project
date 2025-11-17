@@ -1,0 +1,19 @@
+.polaid{
+    width: 80%;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+img{
+    border-radius: 8px;
+    border: 7px solid black;
+    padding: 5px;
+    width: 300px;
+    height: auto;
+}
+img.hover{
+    box-shadow: 0 0 2px 10px rgb(38, 38, 204);
+}
+div.contanier{
+    
+}

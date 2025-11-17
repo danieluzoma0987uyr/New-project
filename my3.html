@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordions </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f0f4f8;
+            padding: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #2c3e50;
+            margin-left: 240px;
+        }
+
+        .accordion {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            border-radius: 8px;
+            /* overflow: hidden; */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+        }
+
+
+
+        .acc-item {
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+       
+
+        .acc-header {
+            padding: 18px 20px;
+            background: #e8f0fe;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: black;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+      
+        }
+
+  
+
+        .acc-header::after {
+            content: "^";
+            font-size: 1rem;
+            color: #555;
+            transition: transform .3s;
+        }
+
+        details[open] .acc-header::after {
+            transform: rotate(180deg);
+        }
+
+        .acc-content {
+            padding: 0 20px;
+            background: #f9f9f9;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #333;
+            max-height: 0;
+            overflow: hidden;
+            
+        }
+
+        details[open] .acc-content {
+            padding: 20px;
+            max-height: 300px;
+        }
+
+        .acc-frontend {
+            background-color: #dbb275;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Accordions</h1>
+
+    <div class="accordion">
+
+        <details class="acc-item" open>
+            <summary class="acc-header  acc-frontend">Front-End Projects</summary>
+            <div class="acc-content">
+                Are you trying to launch your career in front-end development? Then you need to have an interesting
+                portfolio. Not only that, you need to have significant experience and skill in front-end development to
+                bag the job of your dreams.
+            </div>
+        </details>
+
+        <details class="acc-item">
+            <summary class="acc-header">Programming Languages</summary>
+            <div class="acc-content">
+                Learning languages like JavaScript, Python, and C++ can make you versatile and job-ready.
+            </div>
+        </details>
+
+        <details class="acc-item">
+            <summary class="acc-header">JavaScript Frameworks</summary>
+            <div class="acc-content">
+                Frameworks such as React, Angular, and Vue are essential for building interactive web apps.
+            </div>
+        </details>
+
+    </div>
+
+</body>
+
+</html>

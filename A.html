@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footer Example</title>
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      
+    }
+
+    footer {
+      background-color: #000;
+      padding: 50px 80px;
+    }
+
+    .footer-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+    }
+
+    h3 {
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin: 3px 0;
+    }
+
+    ul li a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    ul li a:hover {
+      color: #fff;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      border-top: 1px solid #333;
+      padding: 20px 0;
+      font-size: 14px;
+      color: #aaa;
+      margin-top: 40px;
+    }
+
+    .social-icons i {
+      margin-right: 8px;
+      color: #ccc;
+      transition: color 0.3s;
+    }
+
+    .social-icons i:hover {
+      color: #fff;
+    }
+
+    .contact-info p {
+      margin: 6px 0;
+      color: #ccc;
+    }
+
+    .contact-info span {
+      display: block;
+      margin-top: 5px;
+    }
+
+    @media (max-width: 600px) {
+      footer {
+        padding: 40px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <footer>
+    <div class="footer-container">
+      <div>
+        <h2>FARAZ</h2>
+      </div>
+
+      <div>
+        <h3>Services</h3>
+        <ul>
+          <li>App development</li>
+          <li>Web development</li>
+          <li>DevOps</li>
+          <li>Web designing</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Social</h3>
+        <ul class="social-icons">
+          <li><i class="fab fa-linkedin"></i> LinkedIn</li>
+          <li><i class="fab fa-twitter"></i> Twitter</li>
+          <li><i class="fab fa-github"></i> Github</li>
+          <li><i class="fab fa-codepen"></i> Codepen</li>
+          <li><i class="fab fa-instagram"></i> Instagram</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Quick links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="contact-info">
+        <h3>Address</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, qui!</p>
+
+        <h3>Mobile</h3>
+        <p>+91-12225*****</p>
+
+        <h3>Email</h3>
+        <p>farazc60@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2022 codewithFaraz.
+    </div>
+  </footer>
+</body>
+</html>

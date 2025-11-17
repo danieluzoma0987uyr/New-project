@@ -1,0 +1,27 @@
+.fruits{
+    background-color: green;
+    color: peru;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+}
+ui{
+    list-style: none;
+}
+
+.socials{
+    background-color: blue;
+    color: peru;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    ;
+} 
+
+table{
+    background-color: peru;
+    color: blue;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}

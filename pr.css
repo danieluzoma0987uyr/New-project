@@ -1,0 +1,119 @@
+body{
+    overflow-x: hidden;
+}
+form{
+    font-size: 16px;
+    color: darkblue;
+    background-color: lightgrey;
+    width: 89vw;
+    height: 60vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    
+    input{
+        background-color: white;
+        border-radius: 10px;
+    }
+    input:hover{
+        border: 2px solid yellow;
+    }
+
+    button{
+        background-color: darkblue;
+        color: white;
+        border-radius: 10px;
+        width: 100px;
+        height: 40px;
+        font-size: 16px;
+    }
+    button:hover{
+        background-color: lightblue;
+        color: darkblue;
+        font-weight: bold;
+        cursor: pointer;
+    }
+} 
+
+h2{
+    background-color: peru;
+}
+a{
+    color: red;
+}
+        .navbar{
+            background-color: lightgreen;
+            width: 99Vw;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+
+  
+}
+ 
+
+        .nav_link{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+            list-style: none;
+     
+ }
+
+ *{
+    font-family: jakarta, sans-serif;
+
+ }
+
+ table{
+    border: 2px solid black;
+    width: 80vw;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: aquamarine;
+    margin-bottom: 50px;
+ }
+    th{
+        background-color: lightblue;
+        font-size: 20px;
+        padding: 10px;
+    }
+    td{
+        background-color: lightgrey;
+        font-size: 18px;
+        padding: 10px;
+    }
+    td:hover{
+        background-color: white;
+        cursor: pointer;
+    }
+
+    nav{
+        width: 100vw;
+        height: 20vh;
+        background-color: lime;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    ul{
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        list-style: none;
+    }
+      h1{
+        font-size: 40px;
+        
+
+      }  
+    }
+    

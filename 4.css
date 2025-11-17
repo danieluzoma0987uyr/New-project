@@ -1,0 +1,118 @@
+  *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+ }
+ body{
+        
+        color: #e2e8f0;
+        background-color: rgb(58, 27, 58); 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        padding: 2rem;
+        
+ }
+
+ .starter{
+        border: 4px;
+        box-sizing: border-box;
+        background-color: aqua;
+ }
+
+ .pro{
+        border: 4px;
+        box-sizing: border-box;
+        background-color: darkgrey;
+               
+ }
+
+ .Agency{
+        border: 4px;
+        box-sizing: border-box;
+        background-color: olivedrab;
+ }
+
+ header.navbar{
+        top: 1rem;
+        padding: 1rem;
+        border-radius: 1.5rem;
+        background-color: indigo;
+        margin-top: 1.6rem;
+        justify-content: space-between;
+        align-items: center;
+}
+ 
+.nav-inner{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: space-between;
+        padding: .4rem  .6rem;
+}
+
+.brand{
+        color: aliceblue;
+        display: flex;
+        font-weight: 600;
+        letter-spacing: 2px;
+        gap: .75rem;
+}
+
+.logo{
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+        background-color: #0f172a;
+        color: #c23810;
+        text-align: left;
+}
+
+.desktop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+}
+
+.desktop a{
+        color: white;
+        font: 20px;
+        border-radius: 2px;
+        margin-bottom: 2px;
+        margin-top: 3px;
+
+}
+        
+.chair{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80%;
+    background-color: aquamarine;
+}
+
+.card_container{
+   display: flex;
+   justify-content: space-between;
+   
+
+}
+ .one{
+        background-color: rgb(8, 8, 13);
+        color: white;
+        padding: 4px;
+        font-size: 18px;
+        align-items: center;
+        border: 30px;
+        border-radius: 7px;
+        text-align: center;
+        margin: 25px;
+        gap: 20px;
+       display: flex;
+
+}
+
+
+

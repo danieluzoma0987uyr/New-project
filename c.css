@@ -1,0 +1,67 @@
+.body{
+    color: aliceblue;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(70, 70,70 );
+    gap: 5px;
+    padding: 5px;
+    width: 20%;
+    max-width: 50px;
+    padding-left: 0;
+}
+
+.container div{
+    background-color: beige;
+    color: peru;
+    margin: 5px;
+    padding: 10px;
+
+    margin-right: 0;
+    border: 2px solid black;
+    
+
+    
+
+}
+.class{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    width: 500px;
+    justify-content: space-around;
+    text-align: right;
+    align-items: center;
+    
+}
+
+.class div{
+    border: 2px solid black;
+    padding: 40px;
+}
+
+.move{
+    grid-row: 1 / span 2;
+
+}
+.rigth{
+    grid-column: span 2;
+}
+
+.span1{
+    color: blue;
+    padding-left: 10px;
+}
+
+.span2{
+    color: darkred;
+    padding: 850px;
+}
+

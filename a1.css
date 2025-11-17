@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: rgb(121, 95, 45);
+  padding: 30px;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.login-container h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background: black;
+  margin: 0 0 25px 0;
+  border-radius: 2px;
+  transform: translate(-30px);
+  width: calc(100% + 60px);
+}
+.input-box {
+  margin-bottom: 15px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.input-box input:focus {
+  border-bottom: 2px solid #007bff;
+  outline: none;
+}
+
+.option a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #007bff;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #007bff;
+}
+
+.register-text {
+  margin-top: 15px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.register-text a {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 10px;
+}
